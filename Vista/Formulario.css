@@ -1,0 +1,47 @@
+
+body{
+  background: #2980B9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+
+h2, h1{
+	text-align:center;
+}
+h1 {
+  font-family: 'Manjari', sans-serif;
+  text-shadow: 2px 2px 3px black,2px 2px 6px black;
+  color: #0628eb;
+  font-size: 44px;
+  font-weight: 900;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+table{
+	width:70%;
+	margin:auto;
+	background-color:#fdfce0 ;
+	border:solid 3px #FF9900;
+  box-shadow: 2px 2px 0px #FF9900,2px 2px 10px #FF9900,2px 2px 20px #FF9900;
+	padding:5px;
+	
+}
+#email {
+  text-align: center;
+}
+
+td{
+	padding:5px 0;
+}
+
+input[type=text]:hover, input:focus, #areacomentarios:focus, 
+#areacomentarios:hover {
+
+  background:lightblue;
+}
+
+
